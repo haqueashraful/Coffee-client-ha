@@ -1,9 +1,10 @@
-import React from 'react';
 
 const AddCoffee = () => {
     return (
-        <div>
-            
+        <div className="add-coffee">
+            <div className="contain ">
+                
+            </div>
         </div>
     );
 };

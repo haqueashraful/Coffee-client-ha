@@ -1,7 +1,15 @@
 import PopularProductCard from "./PopularProductCard";
-
+import leftImg from '../assets/images/more/4.png'
+import rightImg from '../assets/images/more/5.png'
 const PopularSection = () => {
   return (
+    <div className="relative">
+    <div className="absolute left-0 top-0">
+        <img src={leftImg} alt="" />
+    </div>
+    <div className="absolute right-0 bottom-0">
+        <img src={rightImg} alt="" />
+    </div>
     <div className="contain">
       <div className="text-center space-y-5">
         <p>--- Sip & Savor ---</p>
@@ -40,6 +48,7 @@ const PopularSection = () => {
         <PopularProductCard />
         <PopularProductCard />
       </div>
+    </div>
     </div>
   );
 };

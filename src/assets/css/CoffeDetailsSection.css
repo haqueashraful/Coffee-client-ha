@@ -1,0 +1,7 @@
+.coffee-details{
+    @apply bg-[url('../images/more/11.png')] bg-no-repeat bg-cover bg-top 
+}
+
+.detailsCard{
+    @apply bg-[#F4F3F0] p-20 text-center flex justify-center items-center gap-10
+}

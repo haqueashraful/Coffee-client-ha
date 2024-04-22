@@ -1,5 +1,6 @@
 
 import "../assets/css/header.css"
+import img from "../assets/images/more/logo1.png"
 const Header = () => {
   return (
     <>
@@ -43,7 +44,10 @@ const Header = () => {
           </div>
         </div>
         <div className="navbar-center">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">
+            <img className="w-10 h-10" src={img} alt="" />
+            <span className=" font-rancho text-4xl">Espresso Emporium</span>
+            </a>
         </div>
         <div className="navbar-end">
           <button className="btn btn-ghost btn-circle">
