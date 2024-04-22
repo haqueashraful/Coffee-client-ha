@@ -1,0 +1,17 @@
+.popularCard{
+    @apply bg-[#F5F4F1] p-10 rounded-3xl shadow-lg  flex justify-between items-center
+}
+
+.btn-div{
+    @apply flex flex-col justify-between items-center  gap-5
+}
+
+.btn-eye{
+    @apply bg-[#D2B48C] px-5 py-2 text-white  rounded-md
+}
+.btn-edit{
+    @apply bg-[#3C393B] px-5 py-2 text-white rounded-md
+}
+.btn-trash{
+    @apply bg-[#EA4744] px-5 py-2 text-white rounded-md
+}

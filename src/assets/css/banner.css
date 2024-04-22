@@ -1,0 +1,29 @@
+.banner-bg{
+    @apply bg-[url('../images/more/3.png')] bg-[] bg-cover bg-bottom bg-no-repeat text-white w-full h-[600px]
+}
+
+
+.banner-title{
+    @apply font-rancho text-5xl text-left
+}
+.banner-description{
+    @apply font-raleway 
+}
+.banner-btn{
+    @apply font-rancho bg-[#E3B577] px-5 py-2 text-[#242222]
+}
+
+
+.banner-bottom{
+    @apply bg-[#ECEAE3] flex justify-center items-center gap-5  py-10 px-28
+}
+
+.banner-bottom-img{
+    @apply w-16 h-16
+}
+.banner-bottom-title{
+    @apply text-3xl text-[#331A15]
+}
+.banner-bottom-des{
+    @apply text-[#1B1A1A]
+}
