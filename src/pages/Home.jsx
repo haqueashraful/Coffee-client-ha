@@ -3,7 +3,6 @@ import Banner from '../Component/Banner';
 import BannerBottom from '../Component/BannerBottom';
 import MoreCoffeeSection from '../Component/MoreCoffeeSection';
 import PopularSection from '../Component/PopularSection';
-import GlowingText from '../Component/GlowingText';
 
 const Home = () => {
 

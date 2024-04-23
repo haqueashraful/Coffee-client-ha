@@ -1,0 +1,18 @@
+.footer-section{
+    @apply bg-[url('../images/more/13.jpg')] bg-cover bg-no-repeat pt-16 pb-10 flex justify-center gap-10
+}
+.footer-left{
+    @apply w-1/2
+}
+.footer-right{
+    @apply w-1/2
+}
+
+.input-coffee-rn{
+    @apply w-full bg-white rounded-md border-none p-3 text-lg text-[#374151] mt-2 focus:outline-[#E3B577]
+}
+
+
+.footer-bottom{
+    @apply bg-[url('../images/more/24.jpg')] bg-cover bg-no-repeat bg-center
+}
