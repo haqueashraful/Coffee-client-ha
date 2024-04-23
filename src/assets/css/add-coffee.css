@@ -1,0 +1,18 @@
+.add-coffee-section{
+    @apply  bg-[url('../images/more/11.png')] bg-cover bg-no-repeat
+}
+
+
+.coffee-section{
+    @apply bg-[#F4F3F0] rounded-md  px-16 py-10  my-16 
+}
+
+
+.input-coffee-rn{
+    @apply w-full bg-white rounded-md border-none p-3 text-lg text-[#374151] mt-2 focus:outline-[#E3B577]
+}
+
+
+.input-btn{
+    @apply bg-[#E3B577] w-full px-5 py-2 text-[#331A15] rounded-md font-rancho
+}

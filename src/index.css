@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 .contain{
-    @apply md:px-10 lg:px-28 mx-auto 
+    @apply md:px-10 lg:px-28 mx-auto
 }

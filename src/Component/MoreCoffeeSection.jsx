@@ -10,13 +10,13 @@ const MoreCoffeeSection = () => {
 
 
     return (
-        <div className="contain">
+        <div className="contain my-16">
             <div className="text-center">
                 <p>Follow Us Now</p>
                 <h1 className="text-5xl font-rancho text-[#331A15]">Follow on Instagram</h1>
             </div>
 
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-4 gap-5 my-10">
                 <img src={cup1} alt="" />
                 <img src={cup2} alt="" />
                 <img src={cup3} alt="" />

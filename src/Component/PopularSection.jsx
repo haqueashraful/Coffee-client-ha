@@ -3,7 +3,7 @@ import leftImg from '../assets/images/more/4.png'
 import rightImg from '../assets/images/more/5.png'
 const PopularSection = () => {
   return (
-    <div className="relative">
+    <div className="relative my-16">
     <div className="absolute left-0 top-0">
         <img src={leftImg} alt="" />
     </div>
@@ -40,7 +40,7 @@ const PopularSection = () => {
         </button>
         </div>
       </div>
-      <div className="lg:grid grid-cols-2 justify-center items-center gap-5">
+      <div className="lg:grid grid-cols-2 justify-center items-center gap-5 my-10">
         <PopularProductCard />
         <PopularProductCard />
         <PopularProductCard />
